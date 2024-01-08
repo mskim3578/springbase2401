@@ -5,7 +5,9 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans
              http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-	
-
+	<bean id="memberDao" class="ch01_di.MemberDao" />
+	<bean id="memberRegSvc" class="ch01_di.MemberRegisterService">
+		<constructor-arg ref="memberDao" />
+	</bean>
 
 </beans>
