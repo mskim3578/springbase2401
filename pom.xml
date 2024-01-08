@@ -1,0 +1,28 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.kic</groupId>
+  <artifactId>springbase</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>Archetype - springbase</name>
+  <url>http://maven.apache.org</url>
+  
+   <properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<spring.version1>4.3.30.RELEASE</spring.version1>
+		<spring.version2>5.2.19.RELEASE</spring.version2>
+	</properties>
+	
+  <dependencies>
+	  <!-- https://mvnrepository.com/artifact/org.springframework/spring-context -->
+<dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-context</artifactId>
+    <version>${spring.version2}</version>
+</dependency>
+
+	  
+  </dependencies>
+  
+  
+</project>
