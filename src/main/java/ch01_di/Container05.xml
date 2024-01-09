@@ -9,5 +9,8 @@
 	<bean id="memberRegSvc" class="ch01_di.MemberRegisterService">
 		<constructor-arg ref="memberDao" />
 	</bean>
+	<bean id="changePwdSvc" class="ch01_di.ChangePasswordService">
+		<constructor-arg ref="memberDao" />
+	</bean>
 
 </beans>

@@ -65,7 +65,7 @@ public class Main5 {
 		System.out.println("\n잘못된 명령입니다. 아래 명령어 사용법을 확인하세요");
 		System.out.println("명령어 사용법:");
 		System.out.println("new 이메일 이름 암호 암호확인");
-	//	System.out.println("change 이메일 현재암호 변경암호\n");
+		System.out.println("change 이메일 현재암호 변경암호\n");
 	}	
 	
 	private static void processChangeCommand(String[] arg) {
